@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Devign",
+    "description": "create design",
+    "version": "1.2",
+    "permissions": [
+        "http://*/*",
+        "https://*/*",
+        "tabs",
+        "storage"
+    ],
+    "browser_action": {
+     "default_icon" : "icon.png",
+     "default_popup": "index.html"
+    },
+    "icons": {
+     "128" : "icon.png"
+    },
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": false
+    }
+   }
+   
